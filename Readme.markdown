@@ -5,7 +5,7 @@ I realized that I didn’t really need an image as I began replacing
 the one I had temporarily "borrowed" from a Google Image search 
 (I'm a professional, I couldn't leave it like that!).
 
-*	[Demo](http://github.com/alanhogan/CSS-Only-Lightbox-Close-Button/blob/master/demo.html)
+*	[Check out the demo here!][demo]
 *	Ready-to-use CSS
 *	LESS -- ready for your mixin pleasure -- included!
 
@@ -16,3 +16,4 @@ This is a [known issue][] in Less. Manually correcting this is straightforward.
 
 
 [known issue]: http://github.com/cloudhead/less/issues/issue/160/ "Variables set in dynamic mixins always use default argument value for calculations"
+[demo]: http://alanhogan.com/files/CSS-only-close-button/demo.html
