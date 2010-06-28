@@ -12,7 +12,7 @@ the one I had temporarily "borrowed" from a Google Image search
 ### Known Issues
 
 The shadow size and offset does not vary with each button size.
-This is a [known issue][] in Less. Manually correcting this is straightforward.
+This is due to a [bug in Less][known issue]. Manually correcting this is straightforward.
 
 
 [known issue]: http://github.com/cloudhead/less/issues/issue/160/ "Variables set in dynamic mixins always use default argument value for calculations"
