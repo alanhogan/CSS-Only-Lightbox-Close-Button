@@ -1,7 +1,7 @@
 html, body {
 	color: black;
 	background: white;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Droid Sans";
+	font-family: "Helvetica Neue", Arial, Helvetica, "Lucida Grande", "Droid Sans", "Bitstream Vera Sans", sans-serif;
 }
 article {
 	max-width: 600px; margin: auto;
