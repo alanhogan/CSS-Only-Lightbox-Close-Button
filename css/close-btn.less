@@ -1,0 +1,101 @@
+/*
+* © 2010 Alan Hogan (http://alanhogan.com/contact)
+* PUBLIC DOMAIN: 
+* Copyright protection rejected to the maximum extent permitted by law.
+* Attribution appreciated (but not legally required).
+*/
+
+/* Use this mixin class to define your own classes like I do below */
+.close-btn(@width: 36px) {
+	// Dimentions & position
+	display: block;
+	position: absolute;
+	top: @width / -2.25;   /* just more than half of the width */
+	right: @width / -2.25; 
+	height: 0;
+	width: @width;
+	padding: @width 0 0 0;
+	overflow: hidden;
+	
+	// Appearance
+	background: #000 none;
+	border: (@width / 8.8) solid #fff;
+	border-radius: @width;
+	@lo: @width / 6; //large shadow offset
+	@so: @width / 22; //small shadow offset
+	box-shadow: 0 0 @lo #000,
+		 (1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		 (1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3);
+	-ms-box-shadow: 0 0 @lo #000,
+		 (1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		 (1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3);
+	-moz-box-shadow: 0 0 @lo #000,
+		 (1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		 (1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3);
+	-webkit-box-shadow: 0 0 @lo #000,
+		 (1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so)  (1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		 (1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3),
+		(-1 * @so) (-1 * @so) (1 * @so) rgba(0,0,0, 0.3);
+	color: #fff;
+	
+	// Behavior cues
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.close-btn-before(@btn_width: 36px) {
+	content: "\D7";
+	display: block;
+	text-align: center;
+	width: @btn_width;
+	position: absolute; top: -0.1 * @btn_width; left: 0;
+	font-size: @btn_width;
+	line-height: @btn_width;
+}
+
+.close-btn-18 {
+	.close-btn(18px);
+	:before { 
+		.close-btn-before(18px); 
+		// correct rounding unpleasentry, go figure?
+		top: -2px;
+		left: 1px;
+	}
+}
+.close-btn-20 {
+	.close-btn(20px);
+	:before { .close-btn-before(20px); }
+}
+.close-btn-24 {
+	.close-btn(24px);
+	:before { .close-btn-before(24px); }
+}
+.close-btn-26 {
+	.close-btn(26px);
+	:before { .close-btn-before(26px); }
+}
+.close-btn-32 {
+	.close-btn(32px);
+	:before { .close-btn-before(32px); }
+}
+.close-btn-36 {
+	.close-btn; //uses default value of 36px
+	:before { .close-btn-before; }
+}
+.close-btn-42 {
+	.close-btn(42px);
+	:before { .close-btn-before(42px); }
+}
+.close-btn-48 {
+	.close-btn(48px);
+	:before { .close-btn-before(48px); }
+}
