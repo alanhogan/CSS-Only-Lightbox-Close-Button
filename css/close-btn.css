@@ -32,6 +32,7 @@
   left: 0;
   font-size: 18px;
   line-height: 18px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
   top: -2px;
   left: 1px;
 }
@@ -69,6 +70,7 @@
   left: 0;
   font-size: 20px;
   line-height: 20px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
 .close-btn-24 {
   display: block;
@@ -104,6 +106,7 @@
   left: 0;
   font-size: 24px;
   line-height: 24px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
 .close-btn-26 {
   display: block;
@@ -139,6 +142,7 @@
   left: 0;
   font-size: 26px;
   line-height: 26px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
 .close-btn-32 {
   display: block;
@@ -174,6 +178,7 @@
   left: 0;
   font-size: 32px;
   line-height: 32px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
 .close-btn-36 {
   display: block;
@@ -209,6 +214,7 @@
   left: 0;
   font-size: 36px;
   line-height: 36px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
 .close-btn-42 {
   display: block;
@@ -244,6 +250,7 @@
   left: 0;
   font-size: 42px;
   line-height: 42px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
 .close-btn-48 {
   display: block;
@@ -279,6 +286,7 @@
   left: 0;
   font-size: 48px;
   line-height: 48px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
 .close-btn-red-20 {
   display: block;
@@ -315,4 +323,5 @@
   left: 0;
   font-size: 20px;
   line-height: 20px;
+  font-family: Consolas, "Helvetica Neue", Verdana, Tahoma, Calibri, Helvetica, Menlo, "Droid Sans", sans-serif;
 }
